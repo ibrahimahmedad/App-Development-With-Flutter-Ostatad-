@@ -124,7 +124,7 @@ else{
    print(k);
  }*/
   /// for in loop in jdon list
-   var productList=[
+   /*var productList=[
      {"Name" : "T-Shirt", "Price": 150},
      {"Name" : "Shirt", "Price": 200},
      {"Name" : "lungi", "Price": 500},
@@ -133,8 +133,19 @@ else{
    for (var list1 in productList){
      var item="Product Name Is = ${list1["Name"]} and Price is = ${list1["Price"]} Taka ";
      print(item);
-   }
+   }*/
+  ///While Loop
+ /* var i=100;
+  while(i>=0){
+    print(i);
+    i=i-1;
+  };*/
 
-
+  ///Do While Loop
+var i=0;
+do{
+  print(i);
+  i=i+1;
+}while(i<=100);
 }
 
