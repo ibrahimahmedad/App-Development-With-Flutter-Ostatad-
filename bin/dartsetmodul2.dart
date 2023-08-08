@@ -1,3 +1,9 @@
+addTwoNumber (var x, var y){
+  return(x+y);
+}
+
+
+
 void main () {
   /*Set myCitySet = <String> {'Dhaka', 'Borishal', 'Coxbazar'}; // Set Dent Allow Dublicat Valu.
   //myCitySet.add('Commila'); // Addition In Set Useing valu Singal
@@ -142,10 +148,13 @@ else{
   };*/
 
   ///Do While Loop
-var i=0;
+/*var i=0;
 do{
   print(i);
   i=i+1;
-}while(i<=100);
+}while(i<=100);*/
+
+var reasult=addTwoNumber(30,40)+15;
+print(reasult);
 }
 
