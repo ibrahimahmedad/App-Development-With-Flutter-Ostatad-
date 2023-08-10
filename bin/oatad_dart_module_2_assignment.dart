@@ -1,6 +1,6 @@
 void main(){
 
-  List gradesList =[90,85,80,95,64,70];
+  List gradesList =[75,85,80,95,64,70];
 
   int totalGrades=gradesList.reduce((a, b) => a+b);
 
