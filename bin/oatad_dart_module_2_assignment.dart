@@ -6,10 +6,13 @@ void main(){
 
   double totalGradesAverage= totalGrades*100/600;
 
-  if (totalGradesAverage>=70){
+  int roundAverage = totalGradesAverage.toInt();
+
+
+  if (roundAverage>=70){
     print('Student average grade : ${totalGradesAverage.toStringAsFixed(2)}');
 
-    print('Round average: ${totalGradesAverage.toInt()}');
+    print('Round average: ${roundAverage}');
 
     print('Passad');
 
