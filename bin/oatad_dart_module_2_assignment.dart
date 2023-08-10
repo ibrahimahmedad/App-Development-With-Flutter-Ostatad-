@@ -4,11 +4,11 @@ void main(){
 
   int totalGrades=
       gradesList.elementAt(0)+
-          gradesList.elementAt(1)+
-          gradesList.elementAt(2)+
-          gradesList.elementAt(3)+
-          gradesList.elementAt(4)+
-          gradesList.elementAt(5);
+      gradesList.elementAt(1)+
+      gradesList.elementAt(2)+
+      gradesList.elementAt(3)+
+      gradesList.elementAt(4)+
+      gradesList.elementAt(5);
 
   double totalGradesAverage= totalGrades*100/600;
 
