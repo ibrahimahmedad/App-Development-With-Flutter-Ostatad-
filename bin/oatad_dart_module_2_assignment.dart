@@ -19,7 +19,7 @@ void main(){
   }
 
   else{
-    print('Failed');
+    print('failed');
   }
 
 }
